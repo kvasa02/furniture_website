@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+.hero-section {
+  background: #f7f6f2;
+  min-height: 60vh;
+  padding: 60px 0;
+  position: relative;
+}
+.hero-img {
+  max-width: 350px;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+}
+
+.shop-banner .card-img-top {
+  height: 120px;
+  object-fit: cover;
+}
+
+.product-card .card-img-top {
+  height: 140px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.about-img {
+  max-width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+}
+
+footer {
+  letter-spacing: 0.5px;
+}
+
+/* Animations for hover */
+.card:hover, .shop-banner:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  transition: .3s cubic-bezier(.4,0,.2,1);
+}
